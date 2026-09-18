@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Andre Abreu | B2B Sales, Digital Marketing and Commercial Operations</title>
+  <meta name="description" content="Andre Abreu is a bilingual UCF business graduate in Miramar, FL with medical device sales and marketing experience, seeking entry-level roles in B2B sales, digital marketing, account management and commercial operations.">
+  <meta name="theme-color" content="#0F172A">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Andre Abreu | B2B Sales, Digital Marketing and Commercial Operations">
+  <meta property="og:description" content="Bilingual UCF business graduate with medical device sales and marketing internship experience. Based in Miramar, FL.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230F172A'/%3E%3Ctext x='32' y='43' font-size='28' font-weight='800' text-anchor='middle' fill='%2338BDF8' font-family='Arial,sans-serif'%3EAA%3C/text%3E%3C/svg%3E">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Andre Abreu",
+    "email": "mailto:andremichealabreu@gmail.com",
+    "url": "https://www.linkedin.com/in/abreu-andre",
+    "address": { "@type": "PostalAddress", "addressLocality": "Miramar", "addressRegion": "FL", "addressCountry": "US" },
+    "alumniOf": "University of Central Florida",
+    "knowsLanguage": ["English", "Spanish"]
+  }
+  </script>
+
+  <style>
+    /* ---------- Tokens ---------- */
+    :root {
+      --navy: #0F172A;
+      --slate: #1E293B;
+      --accent: #38BDF8;
+      --accent-soft: #7DD3FC;
+      --text: #F8FAFC;
+      --body: #CBD5E1;
+      --muted: #94A3B8;
+      --line: rgba(148, 163, 184, 0.2);
+      --radius: 16px;
+      --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    /* ---------- Base ---------- */
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--navy);
+      color: var(--body);
+      font-family: var(--font);
+      font-size: 1.0625rem;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    h1, h2, h3 { color: var(--text); margin: 0; }
+    p { margin: 0; }
+    ul { margin: 0; padding: 0; list-style: none; }
+    a { color: inherit; }
+    section { scroll-margin-top: 5.5rem; }
+    :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+
+    .wrap { width: min(1120px, 100% - 2.5rem); margin-inline: auto; }
+
+    .skip {
+      position: absolute; left: 1rem; top: -4rem;
+      background: var(--accent); color: var(--navy);
+      padding: .6rem 1rem; border-radius: 8px; font-weight: 700; z-index: 100;
+    }
+    .skip:focus { top: 1rem; }
+
+    /* ---------- Header ---------- */
+    .site-header {
+      position: sticky; top: 0; z-index: 50;
+      background: rgba(15, 23, 42, 0.86);
+      -webkit-backdrop-filter: blur(12px);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--line);
+    }
+    .bar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 4.25rem; }
+    .brand { color: var(--text); font-weight: 800; font-size: 1.125rem; letter-spacing: -0.01em; text-decoration: none; }
+    .nav-list { display: flex; align-items: center; gap: 1.75rem; }
+    .nav-list a { color: var(--body); text-decoration: none; font-size: .9375rem; font-weight: 500; transition: color .2s; }
+    .nav-list a:hover { color: var(--accent); }
+    .nav-list a.nav-cta {
+      color: var(--navy); background: var(--accent);
+      padding: .5rem 1.05rem; border-radius: 10px; font-weight: 700;
+      transition: background .2s, transform .2s;
+    }
+    .nav-list a.nav-cta:hover { color: var(--navy); background: var(--accent-soft); transform: translateY(-1px); }
+
+    /* ---------- Buttons ---------- */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      padding: .85rem 1.5rem; border-radius: 10px;
+      font-weight: 700; font-size: 1rem; text-decoration: none;
+      border: 1.5px solid transparent;
+      transition: transform .2s, background .2s, border-color .2s, color .2s;
+    }
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary { background: var(--accent); color: var(--navy); }
+    .btn-primary:hover { background: var(--accent-soft); }
+    .btn-ghost { border-color: rgba(148, 163, 184, .45); color: var(--text); }
+    .btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
+    .btn-row { display: flex; flex-wrap: wrap; gap: .85rem; }
+
+    /* ---------- Hero ---------- */
+    .hero { padding: clamp(3.5rem, 9vw, 7rem) 0 clamp(3.5rem, 8vw, 6rem); }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+      gap: clamp(2.5rem, 6vw, 5rem);
+      align-items: end;
+    }
+    h1 {
+      font-size: clamp(2.2rem, 4.8vw, 3.6rem);
+      line-height: 1.08;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+    .line { display: block; overflow: hidden; padding-bottom: .1em; }
+    .line > span { display: block; animation: rise .85s cubic-bezier(.2, .7, .2, 1) both; }
+    .line:nth-child(2) > span { animation-delay: .14s; }
+    .lede { margin-top: 1.75rem; max-width: 34rem; font-size: 1.2rem; color: var(--body); }
+    .lede strong { color: var(--text); font-weight: 600; }
+    .hero .btn-row { margin-top: 2rem; }
+    .status { margin-top: 1.5rem; display: flex; align-items: center; gap: .6rem; font-size: .9375rem; color: var(--muted); }
+    .status::before { content: ""; width: .6rem; height: .6rem; border-radius: 50%; background: #34D399; flex: none; }
+    .late { animation: fade .8s .45s ease both; }
+
+    .glance {
+      background: var(--slate);
+      border: 1px solid var(--line);
+      border-top: 3px solid var(--accent);
+      border-radius: var(--radius);
+      padding: 1.5rem 1.75rem .75rem;
+    }
+    .glance h2 { font-size: 1rem; font-weight: 700; margin-bottom: .5rem; }
+    .glance dl { margin: 0; }
+    .glance .row {
+      display: grid; grid-template-columns: 8.5rem 1fr; gap: 1rem;
+      padding: 1rem 0; border-top: 1px solid var(--line); align-items: baseline;
+    }
+    .glance dt { color: var(--accent); font-weight: 800; font-size: 1.2rem; letter-spacing: -0.01em; line-height: 1.25; }
+    .glance dd { margin: 0; font-size: .9375rem; color: var(--body); line-height: 1.5; }
+
+    @keyframes rise { from { transform: translateY(105%); } to { transform: none; } }
+    @keyframes fade { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+
+    /* ---------- Sections ---------- */
+    .section { padding: clamp(3.5rem, 8vw, 6rem) 0; }
+    .section-head { max-width: 40rem; margin-bottom: 2.5rem; }
+    .section-head h2 { font-size: clamp(1.9rem, 3.8vw, 2.7rem); font-weight: 800; letter-spacing: -0.028em; line-height: 1.1; }
+    .section-head p { margin-top: .9rem; color: var(--muted); }
+
+    /* ---------- Projects ---------- */
+    .work-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
+    .card {
+      background: var(--slate);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 1.9rem;
+      transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(56, 189, 248, .55);
+      box-shadow: 0 18px 40px -22px rgba(56, 189, 248, .35);
+    }
+    .card h3 { font-size: 1.4rem; font-weight: 750; letter-spacing: -0.015em; line-height: 1.25; }
+    .meta { margin-top: .5rem; display: flex; flex-wrap: wrap; column-gap: 1rem; row-gap: .1rem; font-size: .9375rem; color: var(--muted); }
+    .meta .role { color: var(--accent-soft); font-weight: 600; }
+    .card .summary { margin-top: 1.1rem; }
+    .points { margin-top: 1.1rem; display: grid; gap: .8rem; }
+    .points li { position: relative; padding-left: 1.4rem; }
+    .points li::before {
+      content: ""; position: absolute; left: 0; top: .72em;
+      width: .6rem; height: 2px; background: var(--accent);
+    }
+    .tags { margin-top: 1.4rem; display: flex; flex-wrap: wrap; gap: .5rem; }
+    .tags li {
+      font-size: .8125rem; font-weight: 600; color: var(--accent-soft);
+      background: rgba(56, 189, 248, .1);
+      border: 1px solid rgba(56, 189, 248, .25);
+      padding: .25rem .7rem; border-radius: 999px;
+    }
+    .card.featured {
+      grid-column: 1 / -1;
+      display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr);
+      gap: 1rem clamp(1.5rem, 4vw, 3.5rem);
+      padding: clamp(1.9rem, 4vw, 2.75rem);
+      border-left: 4px solid var(--accent);
+    }
+    .featured h3 { font-size: clamp(1.6rem, 3vw, 2rem); }
+    .featured .points { margin-top: 0; }
+    .featured .tags { margin-top: 1.6rem; }
+
+    /* ---------- Skills ---------- */
+    .skills-band { background: rgba(30, 41, 59, .5); border-block: 1px solid var(--line); }
+    .skill-groups { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2.5rem 3.5rem; }
+    .skill-group { border-top: 2px solid var(--accent); padding-top: 1.1rem; }
+    .skill-group h3 { font-size: 1.125rem; font-weight: 700; margin-bottom: 1rem; }
+    .pills { display: flex; flex-wrap: wrap; gap: .55rem; }
+    .pills li {
+      font-size: .9375rem; font-weight: 500; color: var(--text);
+      background: var(--slate); border: 1px solid var(--line);
+      padding: .4rem .95rem; border-radius: 999px;
+      transition: background .2s, color .2s, border-color .2s, transform .2s;
+    }
+    .pills li:hover { background: var(--accent); color: var(--navy); border-color: var(--accent); transform: translateY(-2px); }
+
+    /* ---------- Background ---------- */
+    .bg-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 2rem 3.5rem; align-items: start; }
+    .edu h3 { font-size: 1.5rem; font-weight: 750; letter-spacing: -0.015em; }
+    .edu .degree { margin-top: .9rem; color: var(--text); font-weight: 600; }
+    .edu .gpa {
+      display: inline-block; margin-top: 1.4rem;
+      padding: .35rem .9rem; border-radius: 999px;
+      background: rgba(56, 189, 248, .1); border: 1px solid rgba(56, 189, 248, .3);
+      color: var(--accent-soft); font-weight: 700; font-size: .9375rem;
+    }
+    .stack { display: grid; gap: 2.5rem; }
+    .list-block h3 { font-size: 1.125rem; font-weight: 700; margin-bottom: .4rem; }
+    .list-block li { padding: 1rem 0; border-top: 1px solid var(--line); }
+    .list-block li:last-child { border-bottom: 1px solid var(--line); }
+    .list-block .name { color: var(--text); font-weight: 600; }
+    .list-block .sub { display: block; font-size: .9375rem; color: var(--muted); margin-top: .15rem; }
+    .list-block .desc { display: block; font-size: .9375rem; color: var(--body); margin-top: .35rem; }
+
+    /* ---------- Contact ---------- */
+    .contact-box {
+      background: var(--slate);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: clamp(2rem, 5vw, 3.5rem);
+      display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+      gap: 2.5rem; align-items: center;
+    }
+    .contact-box h2 { font-size: clamp(1.9rem, 3.8vw, 2.7rem); font-weight: 800; letter-spacing: -0.028em; line-height: 1.1; }
+    .contact-box p { margin-top: 1rem; max-width: 32rem; }
+    .contact-box .btn-row { margin-top: 1.75rem; }
+    .details { display: grid; gap: 1.1rem; font-size: 1rem; }
+    .details div { padding-bottom: 1.1rem; border-bottom: 1px solid var(--line); }
+    .details div:last-child { border-bottom: 0; padding-bottom: 0; }
+    .details dt { font-size: .875rem; color: var(--muted); }
+    .details dd { margin: .15rem 0 0; color: var(--text); font-weight: 600; overflow-wrap: anywhere; }
+    .details a { text-decoration: none; }
+    .details a:hover { color: var(--accent); }
+
+    /* ---------- Footer ---------- */
+    footer { padding: 2.5rem 0 3rem; color: var(--muted); font-size: .9375rem; }
+    .foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 1.5rem; }
+
+    /* ---------- Responsive ---------- */
+    @media (max-width: 900px) {
+      .hero-grid, .featured.card, .bg-grid, .contact-box { grid-template-columns: 1fr; }
+      .hero-grid { align-items: start; }
+      .work-grid, .skill-groups { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 620px) {
+      .bar { flex-wrap: wrap; padding: .75rem 0; gap: .4rem 1rem; }
+      .nav-list { gap: 1.1rem; flex-wrap: wrap; }
+      .glance .row { grid-template-columns: 1fr; gap: .15rem; }
+      .btn { flex: 1 1 100%; }
+      .card { padding: 1.5rem; }
+    }
+
+    /* ---------- Reduced motion ---------- */
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="#top">Andre Abreu</a>
+      <nav aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#work">Work</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#background">Background</a></li>
+          <li><a class="nav-cta" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <h1>
+            <span class="line"><span>Bilingual business graduate</span></span>
+            <span class="line"><span>with B2B sales and marketing experience.</span></span>
+          </h1>
+          <p class="lede late">
+            I graduated from the <strong>University of Central Florida</strong> and have interned in medical device lead generation and paid advertising. I also advanced to the semifinals of the Northwestern Mutual IB Sales Competition, out of 70 teams. I'm looking for an entry-level role in <strong>B2B sales, digital marketing, account management or commercial operations</strong>.
+          </p>
+          <div class="btn-row late">
+            <a class="btn btn-primary" href="#work">View my work</a>
+            <a class="btn btn-ghost" href="Andre_Abreu_Resume_2026.pdf" download>Download résumé</a>
+          </div>
+          <p class="status late">Open to full-time roles in Miramar and greater South Florida</p>
+        </div>
+
+        <aside class="glance late" aria-label="Highlights">
+          <h2>Highlights</h2>
+          <dl>
+            <div class="row"><dt>150+</dt><dd>products on the Ryvex website I rebuilt and optimized for search</dd></div>
+            <div class="row"><dt>Semifinalist</dt><dd>Northwestern Mutual IB Sales Competition, out of 70 teams</dd></div>
+            <div class="row"><dt>1 of 5</dt><dd>students selected for the IB Consulting Practicum</dd></div>
+            <div class="row"><dt>Bilingual</dt><dd>Fluent in English and Spanish</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section class="section" id="work" style="padding-top: 1rem;">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Selected work</h2>
+          <p>Three projects covering lead generation, sales strategy and brand positioning.</p>
+        </div>
+
+        <div class="work-grid">
+
+          <article class="card featured">
+            <div>
+              <h3>Ryvex</h3>
+              <p class="meta"><span class="role">Medical Device Sales &amp; Marketing Intern</span><time>June to August 2025</time></p>
+              <p class="summary">I built the lead list, rebuilt the website and launched the ad campaigns for a medical device distributor in Miramar.</p>
+              <ul class="tags" aria-label="Skills used">
+                <li>Lead generation</li>
+                <li>SEO</li>
+                <li>Meta Ads</li>
+                <li>Google Ads</li>
+                <li>A/B testing</li>
+                <li>FTZ compliance</li>
+              </ul>
+            </div>
+            <ul class="points">
+              <li>Built a verified lab director list through targeted outreach, supporting the transition of a major medical device distribution contract.</li>
+              <li>Rebuilt and optimized the company website across 150+ products, improving SEO and digital visibility.</li>
+              <li>Launched multi-channel Meta and Google ad campaigns with custom video assets, defined target audiences and A/B-tested performance to drive qualified lab leads.</li>
+              <li>Wrote the ONESOURCE user guide that standardizes compliant Foreign-Trade Zone (FTZ) order data for logistics coordinators across departments.</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Northwestern Mutual IB Sales Competition</h3>
+            <p class="meta"><span class="role">Semifinalist</span><time>March to April 2025</time></p>
+            <p class="summary">Built a data-driven territory expansion model and delivered a competitive B2B pitch that advanced to the semifinals out of 70 competing teams.</p>
+            <ul class="tags" aria-label="Skills used">
+              <li>Territory modeling</li>
+              <li>B2B pitching</li>
+              <li>Excel</li>
+              <li>Competitive analysis</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>IB Consulting Practicum</h3>
+            <p class="meta"><span class="role">Consulting program participant</span><time>May to July 2026</time></p>
+            <p class="summary">Selected as 1 of 5 students through an application process. Developed brand positioning frameworks and market-entry strategies for beverage brands. Client details are confidential under NDA.</p>
+            <ul class="tags" aria-label="Skills used">
+              <li>Brand positioning</li>
+              <li>Market entry</li>
+              <li>Consulting</li>
+              <li>Market research</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills-band" id="skills">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Skills and tools</h2>
+          <p>The tools I use to find prospects, run campaigns and keep the numbers clean.</p>
+        </div>
+
+        <div class="skill-groups">
+          <div class="skill-group">
+            <h3>Sales</h3>
+            <ul class="pills">
+              <li>B2B pitching</li>
+              <li>Lead generation</li>
+              <li>CRM navigation</li>
+              <li>Client relationship management</li>
+              <li>Sales effectiveness</li>
+              <li>Targeted outreach</li>
+              <li>Territory expansion modeling</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Marketing</h3>
+            <ul class="pills">
+              <li>SEO</li>
+              <li>Meta Ads Manager</li>
+              <li>Google Ads Manager</li>
+              <li>A/B testing</li>
+              <li>Multi-channel advertising</li>
+              <li>Video content creation</li>
+              <li>Brand positioning</li>
+              <li>Website optimization</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Data and operations</h3>
+            <ul class="pills">
+              <li>Excel: pivot tables, VLOOKUP</li>
+              <li>Data analysis</li>
+              <li>Market research</li>
+              <li>Competitive analysis</li>
+              <li>FTZ order data compliance</li>
+              <li>Logistics coordination</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Languages</h3>
+            <ul class="pills">
+              <li>English: fluent</li>
+              <li>Spanish: fluent</li>
+              <li>Public speaking</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Background -->
+    <section class="section" id="background">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Education and credentials</h2>
+        </div>
+
+        <div class="bg-grid">
+          <article class="card edu">
+            <h3>University of Central Florida</h3>
+            <p class="meta"><time>August 2023 to July 2026</time></p>
+            <p class="degree">Bachelor of Science in Business Administration (BSBA), Integrated Business</p>
+            <span class="gpa">GPA 3.4</span>
+          </article>
+
+          <div class="stack">
+            <div class="list-block">
+              <h3>Certifications</h3>
+              <ul>
+                <li>
+                  <span class="name">Microsoft Office Specialist: Excel Associate</span>
+                  <span class="sub">Office 2019, Microsoft</span>
+                </li>
+                <li>
+                  <span class="name">Sales Effectiveness</span>
+                  <span class="sub">LinkedIn</span>
+                </li>
+                <li>
+                  <span class="name">Public Speaking</span>
+                  <span class="sub">LinkedIn</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="list-block">
+              <h3>Leadership and work ethic</h3>
+              <ul>
+                <li>
+                  <span class="name">Sunshine Aftercare, Volunteer</span>
+                  <span class="sub">June 2022 to August 2023</span>
+                  <span class="desc">Led daily youth activities, supported student academics and camper safety on field trips, and ran event setup and logistics for multiple schools.</span>
+                </li>
+                <li>
+                  <span class="name">Fresh Kitchen, Back of House</span>
+                  <span class="sub">August 2023 to April 2024</span>
+                  <span class="desc">Coordinated with a fast-paced kitchen team to keep service quality high under pressure.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact" style="padding-top: 1rem;">
+      <div class="wrap">
+        <div class="contact-box">
+          <div>
+            <h2>Let's talk about a role</h2>
+            <p>I'm looking for an entry-level position in B2B sales, digital marketing, account management or commercial operations in South Florida. Email is the fastest way to reach me.</p>
+            <div class="btn-row">
+              <a class="btn btn-primary" href="mailto:andremichealabreu@gmail.com">Email me</a>
+              <a class="btn btn-ghost" href="https://www.linkedin.com/in/abreu-andre" target="_blank" rel="noopener">Connect on LinkedIn</a>
+            </div>
+          </div>
+          <dl class="details">
+            <div><dt>Email</dt><dd><a href="mailto:andremichealabreu@gmail.com">andremichealabreu@gmail.com</a></dd></div>
+            <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/abreu-andre" target="_blank" rel="noopener">linkedin.com/in/abreu-andre</a></dd></div>
+            <div><dt>Location</dt><dd>Miramar, FL</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap foot">
+      <span>&copy; 2026 Andre Abreu</span>
+      <span>Miramar, Florida</span>
+    </div>
+  </footer>
+</body>
+</html>
